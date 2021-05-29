@@ -1,0 +1,112 @@
+.login-page {
+    padding-top: 25%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+body {
+    height: 100vh;
+}
+
+#card-container {
+    height: inherit;
+    overflow: clip;
+}
+@media screen and (max-width: 600px) and (min-height: 100px){
+    #card-container {
+        overflow: scroll;
+    }  
+    body {
+        height: 100%;
+    }
+    /* .card1 {
+        height: 100%;
+    } */
+}
+
+h1{
+    text-align: center; 
+    padding-top: 15px;
+}
+
+.card{
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px 0 black;
+}
+
+.card1 {
+    background-color: #328f8a;
+    height: inherit;
+}
+
+.card3 {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.card4 {
+    padding-top: 4%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+.card5 {
+    width: 100%
+}
+
+#username{
+    padding-top: 15px;
+}
+
+#password{
+    padding-top: 15px;
+}
+
+#remember{
+    padding-top: 5px;
+}
+
+.footer {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+#logo{
+    padding-top: 15px; 
+    padding-bottom: 15px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: 10px;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    margin-right: 10px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-right: 10px;
+}
+
+#Login{
+    padding-top: 15px;
+}
+
+
+
+
